@@ -3,6 +3,7 @@ const express = require("express");
 const path = require('path')
 const {notes} = require('./db/db.json')
 console.log({notes})
+const { v4: uuidv4 } = require("uuid");
 
 const PORT = process.env.PORT || 3001;
 const app = express();
@@ -20,6 +21,10 @@ app.get("/api/notes", (req, res) =>
 app.get('/notes', (req, res) => {
   res.sendFile(path.join(__dirname, './public/notes.html'));
 });
+
+app.get("/api/notes/:id", (req, res) =>
+  res.sendFile(path.join(__dirname, "./db/db.json"))
+);
 
 app.listen(PORT, () => {
     console.log(`API server on port http://localhost:${PORT}`);
