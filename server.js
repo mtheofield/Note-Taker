@@ -10,11 +10,11 @@ const app = express();
 app.use(express.static('public'));
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
+app.use(express.static(path.join(__dirname, "public")));
 
-app.get('/api/notes', (req, res) => {
-  let results = notes;
-  res.json(results);
-});
+app.get("/api/notes", (req, res) =>
+  res.sendFile(path.join(__dirname, "./db/db.json"))
+);
 
 
 app.get('/notes', (req, res) => {
