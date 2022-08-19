@@ -32,6 +32,18 @@ module.exports = (app) =>{
         res.json(data);    
 
     });
+    
+    app.delete("/api/notes/:id", (req, res) =>{
 
+        let noteId = req.params.id;
+        console.log(`Deleting note and the unique id ${noteId}`);
+        data = data.filter(thisNote => {
+           return thisNote.id != noteId;
+        });
+        fs.writeFileSync("./db/db.json", JSON.stringify(data));
+        res.json(data);
+    }); 
+    
 }
+
 
