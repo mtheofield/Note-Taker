@@ -15,16 +15,20 @@
   
   ## Installation
 
-  To install necessary dependencies, please run the following command:
+  To install this application you wiill need to run the following command:
   ```
    npm i
   ```
+Applications used in this project were: 
+[Express.js](https://expressjs.com/)
+[Node.js](https://nodejs.org/en/)
+[uuid](https://www.npmjs.com/package/uuid)
   
   ## License
   This project is covered under the MIT license. Visit the following link for more information on this license: [MIT](hhttps://opensource.org/licenses/MIT)
 
   ## Deployed-Application
-  [Click Here for a link to the deployed application with a unique name for my project. ](https://note-taker-heroku-mp.herokuapp.com/)
+  [Note Taker Heokuapp URL ](https://note-taker-heroku-mp.herokuapp.com/)
 
   ![Note-Taker-Application]()
 
