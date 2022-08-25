@@ -25,7 +25,7 @@ Applications used in this project were:
 [uuid](https://www.npmjs.com/package/uuid)
   
   ## License
-  This project is covered under the MIT license. Visit the following link for more information on this license: [MIT](hhttps://opensource.org/licenses/MIT)
+  This project is covered under the MIT license.
 
   ## Deployed-Application
   [Note Taker Heokuapp URL ](https://note-taker-heroku-mp.herokuapp.com/)
