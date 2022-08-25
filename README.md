@@ -30,8 +30,9 @@ Applications used in this project were:
   ## Deployed-Application
   [Note Taker Heokuapp URL ](https://note-taker-heroku-mp.herokuapp.com/)
 
-  ![Note-Taker-Application]()
-
+  ![Note-Taker-Application homepage](img/homepageheroku.png)
+  ![Note-Taker-Application with no notes](img/blanknotes.png)
+  ![Note-Taker-Application with notes](img/withnotes.png)
   ## Questions
   Please reach out to me at the below with any questions:
   
